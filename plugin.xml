@@ -56,7 +56,7 @@
         <framework src="com.google.android.gms:play-services-tagmanager:16.+"/>
         <framework src="com.google.firebase:firebase-auth:18.+"/>
         <framework src="com.google.firebase:firebase-core:17.+"/>
-        <framework src="com.google.firebase:firebase-messaging:19.+"/>
+        <framework src="com.google.firebase:firebase-messaging:20.+"/>
         <framework src="com.google.firebase:firebase-config:18.+"/>
         <framework src="com.google.firebase:firebase-perf:18.+"/>
     </platform>
@@ -94,13 +94,13 @@
                 <source url="https://github.com/CocoaPods/Specs.git"/>
             </config>
             <pods use-frameworks="true">
-                <pod name="Firebase/Core" spec="5.20.2"/>
-                <pod name="Firebase/Auth" spec="5.20.2"/>
-                <pod name="Firebase/Messaging" spec="5.20.2"/>
-                <pod name="Firebase/Performance" spec="5.20.2"/>
-                <pod name="Firebase/RemoteConfig" spec="5.20.2"/>
+                <pod name="Firebase/Core" spec="6.13.0"/>
+                <pod name="Firebase/Auth" spec="6.13.0"/>
+                <pod name="Firebase/Messaging" spec="6.13.0"/>
+                <pod name="Firebase/Performance" spec="6.13.0"/>
+                <pod name="Firebase/RemoteConfig" spec="6.13.0"/>
                 <pod name="Fabric" spec="1.10.2"/>
-                <pod name="Crashlytics" spec="3.13.2"/>
+                <pod name="Crashlytics" spec="3.14.0"/>
             </pods>
         </podspec>
     </platform>
